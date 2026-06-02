@@ -1,0 +1,27 @@
+# KiCad autosave and backup files
+*-backups/
+*.bak
+*.bck
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+*.tmp
+*.lck
+
+# Netlist files (these can be regenerated from the schematic)
+*.net
+
+# Autorouter files
+*.dsn
+*.ses
+
+# Manufacturing outputs (Optional: uncomment if you want to ignore them)
+# Normally, you generate these into a specific folder and don't track them.
+# gerbers/
+# *.gbr
+# *.drl
+# *.pos
+# *.csv
+
+# macOS system files (if you are on a Mac)
+.DS_Store

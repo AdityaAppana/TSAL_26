@@ -1,0 +1,4 @@
+(version 1)
+(rule "Component Edge Clearance"
+  (constraint courtyard_clearance (min 3.0mm))
+  (condition "B.Layer == 'Edge.Cuts'"))
